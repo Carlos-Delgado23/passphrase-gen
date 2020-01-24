@@ -1,4 +1,4 @@
-let wordList = [
+export let wordList = [
   "abacus",
   "abdomen",
   "abdominal",
@@ -7776,3 +7776,5 @@ let wordList = [
   "zoology",
   "zoom"
 ]
+
+
