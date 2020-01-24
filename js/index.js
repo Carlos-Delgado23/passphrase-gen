@@ -3,7 +3,7 @@ import { wordList } from './eff-db-list.js';
 
 
 
-
+// GENERATE SIX WORDS FROM WORD DB //
 let wordArrGen = (wordList) => {
   let wordArr = [];
 
@@ -14,17 +14,9 @@ let wordArrGen = (wordList) => {
   return wordArr;
 };
 
-// console.log(wordArrGen(wordList));
+console.log(wordArrGen(wordList));
 
-for (var i = 0; i < 20000; i++) {
-  let wordArr = wordArrGen(wordList);
 
-  if (wordArr === '') {
-    console.log("here");
-
-  }
-
-}
 
 // const diceWord = (wordList) => {
 //   return wordList[Math.round(Math.random() * wordList.length)];
