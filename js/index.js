@@ -1,4 +1,4 @@
-import { wordList } from './eff-db-list.js';
+import { wordList } from './word-db-list.js';
 
 
 
