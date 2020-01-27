@@ -4,6 +4,38 @@ import { wordList } from './word-db-list.js';
 
 // GET ELEMENTS //
 const result = document.getElementById('result');
+const upper = document.getElementById('uppercase');
+const lower = document.getElementById('lowercase');
+const num = document.getElementById('numbers');
+const sym = document.getElementById('symbols');
+
+
+let pwGen = () => {
+  let resultOutput = [];
+
+  if (upper === 'checked') {
+
+  }
+  if (lower === 'checked') {
+
+  }
+  if (num === 'checked') {
+
+  }
+  if (sym === 'checked') {
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
