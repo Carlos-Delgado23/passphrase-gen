@@ -2,6 +2,10 @@ import { wordList } from './word-db-list.js';
 
 
 
+// GET ELEMENTS //
+const result = document.getElementById('result');
+
+
 
 // GENERATE SIX WORDS FROM WORD DB //
 let wordArrGen = (wordList) => {
@@ -18,7 +22,3 @@ console.log(wordArrGen(wordList));
 
 
 
-// const diceWord = (wordList) => {
-//   return wordList[Math.round(Math.random() * wordList.length)];
-// };
-// console.log(diceWord(wordList));
